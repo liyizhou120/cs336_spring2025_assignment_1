@@ -1,0 +1,15 @@
+2025-11-23 16:17:30,979 INFO    MainThread:1247840 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_setup.py:_flush():80] Configure stats pid to 1247840
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_setup.py:_flush():80] Loading settings from /home/yizhouli/.config/wandb/settings
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_setup.py:_flush():80] Loading settings from /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/wandb/settings
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/wandb/run-20251123_161730-eewjusmv/logs/debug.log
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/wandb/run-20251123_161730-eewjusmv/logs/debug-internal.log
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_init.py:init():830] calling init triggers
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'model': {'vocab_size': 10000, 'context_length': 256, 'num_layers': 4, 'd_model': 512, 'd_ff': 1344, 'rope_theta': 10000}, 'optimizer': {'lr': 0.0003, 'weight_decay': 0.01, 'betas': (0.9, 0.999), 'max_norm': 1.0}, 'training': {'batch_size': 16, 'total_epochs': 0.5, 'checkpoint_freq': 2000, 'log_freq': 10, 'val_freq': 400, 'val_batch_size': 16, 'val_batches': 20}, '_wandb': {}}
+2025-11-23 16:17:30,980 INFO    MainThread:1247840 [wandb_init.py:init():871] starting backend
+2025-11-23 16:17:31,200 INFO    MainThread:1247840 [wandb_init.py:init():874] sending inform_init request
+2025-11-23 16:17:31,214 INFO    MainThread:1247840 [wandb_init.py:init():882] backend started and connected
+2025-11-23 16:17:31,215 INFO    MainThread:1247840 [wandb_init.py:init():953] updated telemetry
+2025-11-23 16:17:31,215 INFO    MainThread:1247840 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout

@@ -1,0 +1,14 @@
+[32m2025-11-23 20:31:42.395[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m68[0m - [1mStart initializing model[0m
+[32m2025-11-23 20:31:47.132[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m79[0m - [1mInitialization completed[0m
+[32m2025-11-23 20:31:47.133[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m82[0m - [1mStart initializing optimizer[0m
+[32m2025-11-23 20:31:47.133[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m89[0m - [1mOptimizer initialization completed[0m
+[32m2025-11-23 20:31:47.133[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m103[0m - [1mNot providing checkpoint. Begin from start[0m
+[32m2025-11-23 20:31:47.134[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m105[0m - [1mStart loading training dataset: ./data/token/TinyStories_train_10000_token_ids.npy, validation set: ./data/token/TinyStories_valid_10000_token_ids.npy[0m
+Traceback (most recent call last):
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py", line 106, in <module>
+    training_dataset = np.load(data_paths['training_dataset_path'], mmap_mode='r+')  #Memory Mapping
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/token/TinyStories_train_10000_token_ids.npy'

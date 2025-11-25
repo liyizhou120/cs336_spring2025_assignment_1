@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            4ajx53va6ehf7xlvl2ubsl0d6m1eb1ro:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.2"
+                disk:
+                    /:
+                        total: "102609973248"
+                        used: "85120126976"
+                email: liyizhou120@gmail.com
+                executable: /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/.venv/bin/python3
+                gpu: NVIDIA GeForce RTX 3080 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6144
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 3080 Laptop GPU
+                      uuid: GPU-3d6f579a-5e97-a03e-1141-cb28e1cfe8ff
+                host: yizhouli-rog-g15
+                memory:
+                    total: "33023315968"
+                os: Linux-6.8.0-87-generic-x86_64-with-glibc2.35
+                program: /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py
+                python: CPython 3.12.7
+                root: /media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer
+                startedAt: "2025-11-24T04:31:41.448500Z"
+                writerId: 4ajx53va6ehf7xlvl2ubsl0d6m1eb1ro
+        m: []
+        python_version: 3.12.7
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.12.7
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": linux-x86_64
+model:
+    value:
+        context_length: 256
+        d_ff: 1344
+        d_model: 512
+        num_heads: 16
+        num_layers: 4
+        rope_theta: 10000
+        vocab_size: 10000
+optimizer:
+    value:
+        betas:
+            - 0.9
+            - 0.999
+        lr: 0.0003
+        max_norm: 1
+        weight_decay: 0.01
+training:
+    value:
+        batch_size: 16
+        checkpoint_freq: 2000
+        log_freq: 10
+        total_epochs: 0.5
+        val_batch_size: 16
+        val_batches: 20
+        val_freq: 400

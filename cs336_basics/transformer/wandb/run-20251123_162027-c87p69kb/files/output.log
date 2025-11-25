@@ -1,0 +1,8 @@
+/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/.venv/lib/python3.12/site-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+[32m2025-11-23 16:20:27.874[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m67[0m - [1mStart initializing model[0m
+Traceback (most recent call last):
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py", line 68, in <module>
+    model = module.TransformerLM(
+            ^^^^^^^^^^^^^^^^^^^^^
+TypeError: TransformerLM.__init__() missing 1 required positional argument: 'num_heads'

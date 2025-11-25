@@ -1,0 +1,24 @@
+{
+  "os":  "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-11-24T00:20:27.092077Z",
+  "program":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "liyizhou120@gmail.com",
+  "root":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer",
+  "host":  "yizhouli-rog-g15",
+  "executable":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/.venv/bin/python3",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "102609973248",
+      "used":  "85604483072"
+    }
+  },
+  "memory":  {
+    "total":  "33023422464"
+  },
+  "writerId":  "vgko8iy3we8etcd83v2anx2s86p8l7mu"
+}

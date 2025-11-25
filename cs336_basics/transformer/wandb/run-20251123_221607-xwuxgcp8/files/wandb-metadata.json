@@ -1,0 +1,36 @@
+{
+  "os":  "Linux-6.8.0-87-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-11-24T06:16:07.651287Z",
+  "program":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "liyizhou120@gmail.com",
+  "root":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer",
+  "host":  "yizhouli-rog-g15",
+  "executable":  "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/.venv/bin/python3",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "102609973248",
+      "used":  "85356904448"
+    }
+  },
+  "memory":  {
+    "total":  "33023315968"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3080 Laptop GPU",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  6144,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-3d6f579a-5e97-a03e-1141-cb28e1cfe8ff"
+    }
+  ],
+  "cudaVersion":  "12.2",
+  "writerId":  "ei9aa5oqnb5w7sbee3jpx0dxnenijcoo"
+}

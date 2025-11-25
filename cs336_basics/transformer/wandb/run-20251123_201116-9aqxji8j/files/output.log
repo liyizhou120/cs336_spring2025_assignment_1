@@ -1,0 +1,15 @@
+[32m2025-11-23 20:11:17.745[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m68[0m - [1mStart initializing model[0m
+Traceback (most recent call last):
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/train.py", line 69, in <module>
+    model = module.TransformerLM(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/module.py", line 408, in __init__
+    self.token_embedding = Embedding(vocab_size, d_model, device = device)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/yizhouli/1TB 970 Evo Plus/code/cs336/assignment1-basics-main/cs336_basics/transformer/module.py", line 50, in __init__
+    self.weight = nn.Parameter(torch.empty((num_embeddings, embedding_dim), device = device, dtype = None))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUDA-capable device(s) is/are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
